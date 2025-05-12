@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.19; // Solidity version
+pragma solidity ^0.8.19;
+
+// 🚨 WARNING: SECURITY ISSUE DETECTED 🚨
+// Looks like a private key might be exposed below!
+// ⚠️ Do NOT use this key in any wallet — this is for testing/fun only!
+// 🔓 PrivateKey: 0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef
 
 // Start of the Greeter contract
 contract Greeter {
@@ -16,3 +21,4 @@ contract Greeter {
         message = newMessage; // Set the message to the new value
     }
 } // End of contract
+
